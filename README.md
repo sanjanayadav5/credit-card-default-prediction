@@ -59,12 +59,7 @@ Prediction & Output:
 - Predict default status (0 or 1).
 - Output probabilities for user understanding.
 ## diagram
-graph LR
-    A[Raw Dataset] --> B[Data Preprocessing]
-    B --> C[EDA]
-    C --> D[Model Training]
-    D --> E[Predictions]
-    E --> F[Streamlit App Deployment]
+![Screenshot 2025-01-06 152459](https://github.com/user-attachments/assets/091f19e8-c243-4f59-99d9-e6a60408d979)
 
 ## Features
 
