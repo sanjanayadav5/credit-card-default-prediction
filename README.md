@@ -10,64 +10,54 @@ The project follows a structured pipeline to ensure accurate predictions and mea
 
 1. Data Collection:
 
-      - Dataset: UCI Credit Card Default Dataset.
+- Dataset: UCI Credit Card Default Dataset.
 
 - Features: Demographic details (age, gender, education), credit limit, payment history, and default status.
 
 2. Data Preprocessing:
 
-       Handle missing values.
-
-       Normalize numerical features.
-
-       Encode categorical variables.
+- Handle missing values.
+- Normalize numerical features.
+- Encode categorical variables.
 
 3. Exploratory Data Analysis (EDA):
 
-       Analyze distributions and trends.
-
-       Visualize correlations using heatmaps and plots.
-
-       Identify key predictors of default.
+- Analyze distributions and trends.
+- Visualize correlations using heatmaps and plots.
+- Identify key predictors of default.
 
 Model Development:
 
-      Train/Test Split.
-
-    Train models including Logistic Regression, Random Forest, and Gradient Boosting.
-
-    Evaluate performance using metrics such as accuracy, precision, recall, and F1-score.
+- Train/Test Split.
+- Train models including Logistic Regression, Random Forest, and Gradient Boosting.
+- Evaluate performance using metrics such as accuracy, precision, recall, and F1-score.
 
 Model Deployment:
 
-    Save the trained model.
-
-    Implement a Streamlit web app for user interaction and prediction.
+- Save the trained model.
+- Implement a Streamlit web app for user interaction and prediction.
 ## Data Flow Diagram
 
 Below is the data flow for the project:
 
 Input Data:
 
-     Raw credit card data.
-
-     Demographics, payment history, and billing details.
+- Raw credit card data.
+- Demographics, payment history, and billing details.
 
 Data Preprocessing:
 
-    Handle missing values, outliers, and normalization.
+- Handle missing values, outliers, and normalization.
 
 Model Training:
 
-    Train/Test split.
-
-    Model training with validation.
+- Train/Test split.
+- Model training with validation.
 
 Prediction & Output:
 
-    Predict default status (0 or 1).
-
-    Output probabilities for user understanding.
+- Predict default status (0 or 1).
+- Output probabilities for user understanding.
 ## diagram
 graph LR
     A[Raw Dataset] --> B[Data Preprocessing]
@@ -78,11 +68,11 @@ graph LR
 
 ## Features
 
-     Demographics: Age, gender, education, marital status.
+- Demographics: Age, gender, education, marital status.
 
-     Financial Details: Credit limit, bill statements, and payment amounts.
+- Financial Details: Credit limit, bill statements, and payment amounts.
 
-     Payment History: Delay in payments across six months.
+- Payment History: Delay in payments across six months.
 
 ## Setup
 
@@ -102,19 +92,19 @@ To run this project locally:
 
 ## Results
 
-    Best Model: Random Forest with an accuracy of 85%.
+- Best Model: Random Forest with an accuracy of 85%.
 
-    Key Insights:
+- Key Insights:
 
-            Payment delays significantly impact default predictions.
+  -- Payment delays significantly impact default predictions.
 
-            Credit limit and payment amounts are strong predictors.
+  -- Credit limit and payment amounts are strong predictors.
 
 ## Future Improvements
 
-    Implement hyperparameter tuning for models.
+- Implement hyperparameter tuning for models.
  
-    Add more features to improve prediction accuracy.
+- Add more features to improve prediction accuracy.
 
-    Deploy on a cloud platform like AWS or Heroku for broader access.
+- Deploy on a cloud platform like AWS or Heroku for broader access.
      
