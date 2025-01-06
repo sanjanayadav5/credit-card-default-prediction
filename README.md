@@ -10,9 +10,9 @@ The project follows a structured pipeline to ensure accurate predictions and mea
 
 1. Data Collection:
 
-       Dataset: UCI Credit Card Default Dataset.
+      - Dataset: UCI Credit Card Default Dataset.
 
-       Features: Demographic details (age, gender, education), credit limit, payment history, and default status.
+- Features: Demographic details (age, gender, education), credit limit, payment history, and default status.
 
 2. Data Preprocessing:
 
